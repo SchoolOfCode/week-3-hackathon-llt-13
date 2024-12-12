@@ -16,7 +16,7 @@ async function fetchData() {
     console.error('Error fetching data:', error);
 }};
 
-    fetchData()
+fetchData()
 
 async function addFact() {
   const factText = document.querySelector(".daily");
