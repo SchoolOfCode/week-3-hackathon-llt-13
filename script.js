@@ -9,11 +9,13 @@ async function fetchData() {
       const dailyFact = await response.text(); //bug1 - response wasn't json, so had to convert it from plaintext
       console.log(dailyFact);
       return dailyFact;
-    }
+};
 
     fetchData()
 
-function addJoke() {
-  const jokeText = document.querySelector(".daily")
-  
-}
+async function addFact() {
+  const factText = document.querySelector(".daily");
+  factText.textContent = await fetchData();
+};
+
+addFact() 
