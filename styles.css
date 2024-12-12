@@ -1,0 +1,35 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #6c82d4;
+}
+
+h1 {
+    background-image: url("./h1\ background.png");
+    border-style: solid;
+    border-width: 40px;
+    text-align: center;
+    font-size: 80px;
+    color: azure;
+    padding: 80px 40px 80px 40px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 80px;
+}
+
+#triviaHeader {
+    font-size: 30px;
+}
+
+
+.daily {
+    font-size: 20px;
+}
