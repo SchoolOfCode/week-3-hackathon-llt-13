@@ -26,10 +26,16 @@ div {
 }
 
 #triviaHeader {
-    font-size: 30px;
+    font-size: 40px;
 }
 
+#factButton {
+    font-size: 24px;
+    background-color: #6c82d4;
+    border-color: #6c82d4;
+    border-width: 10px;
+}
 
 .daily {
-    font-size: 20px;
+    font-size: 30px;
 }
