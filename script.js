@@ -18,4 +18,17 @@ async function addFact() {
   factText.textContent = await fetchData();
 };
 
-addFact() 
+
+
+// async function getAndDisplayNewFact() {
+//   const joke = await retrieveJoke();
+//   displayJoke(joke);
+// }
+
+// function displayJoke({ joke }) {
+//   const jokeElement = document.getElementById("joke");
+//   jokeElement.textContent = joke;
+// }
+
+const button = document.getElementById("factButton");
+button.addEventListener("click", addFact);
