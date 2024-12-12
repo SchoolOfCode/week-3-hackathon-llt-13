@@ -1,13 +1,19 @@
 console.log("Hello!")
 
 async function fetchData() {
-      const response = await fetch('https://uselessfacts.jsph.pl//api/v2/facts/random?language=en', {
+      const response = await fetch('http://numbersapi.com/random/trivia', {
         headers: {
-        Accept: "application/json",
+        "Accept": "application/json",
         },
       });
-      const dailyFact = await response.json();
+      const dailyFact = await response.text(); //bug1 - response wasn't json, so had to convert it from plaintext
       console.log(dailyFact);
       return dailyFact;
     }
 
+    fetchData()
+
+function addJoke() {
+  const jokeText = document.querySelector(".daily")
+  
+}
