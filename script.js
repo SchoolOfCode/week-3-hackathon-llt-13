@@ -26,11 +26,17 @@ async function fetchMath() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const dailyMath = await response.text();
-    console.log(dailyMath)
     return dailyMath;
   } catch (error) {
     console.error('Error fetching data:', error);
 }};
+
+// async function dataString() {
+//   const dataWords = await fetchData();
+//   const firstDataWord = dataWords.split(" ")[0];
+//   console.log(firstDataWord);
+//   return firstDataWord;
+// }
 
 async function addFact() {
   const factText = document.querySelector("#fact");
@@ -44,6 +50,7 @@ async function addMath() {
 
 const button = document.getElementById("factButton");
 button.addEventListener("click", addFact);
+// button.addEventListener("click", dataString);
 
 const buttontwo = document.getElementById("mathButton");
 buttontwo.addEventListener("click", addMath);
