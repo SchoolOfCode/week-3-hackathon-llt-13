@@ -25,3 +25,4 @@ async function addFact() {
 
 const button = document.getElementById("factButton");
 button.addEventListener("click", addFact);
+button.addEventListener("keypress", ".keyboard-clickable", addFact);

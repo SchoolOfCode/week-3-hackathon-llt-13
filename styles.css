@@ -31,7 +31,17 @@ button {
     font-weight: bold;
     background-color: #6c82d4;
     border-color: #6c82d4;
-    border-width: 10px;
+    border-width: 8px;
+}
+
+button:focus {
+    border-width: 8px;
+    border-color: #44538a;
+    border-style: solid;     
+}
+
+button:active {
+    background-color: #4d5e9c;
 }
 
 .daily {
