@@ -23,14 +23,12 @@ div {
     background-color: aliceblue;
     text-align: center;
     padding: 80px;
+    margin: 40px;
 }
 
-#triviaHeader {
-    font-size: 40px;
-}
-
-#factButton {
+button {
     font-size: 24px;
+    font-weight: bold;
     background-color: #6c82d4;
     border-color: #6c82d4;
     border-width: 10px;
@@ -39,3 +37,8 @@ div {
 .daily {
     font-size: 30px;
 }
+
+.header {
+    font-size: 40px;
+}
+
