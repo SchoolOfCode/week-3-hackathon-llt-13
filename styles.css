@@ -53,3 +53,13 @@ button:active {
     font-size: 40px;
 }
 
+img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatars {
+    display: flex;
+    justify-content: space-around;
+}
