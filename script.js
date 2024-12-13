@@ -44,8 +44,6 @@ async function addMath() {
 
 const button = document.getElementById("factButton");
 button.addEventListener("click", addFact);
-button.addEventListener("keypress", addFact, ".keyboard-clickable");
 
 const buttontwo = document.getElementById("mathButton");
 buttontwo.addEventListener("click", addMath);
-buttontwo.addEventListener("keypress", addMath, ".keyboard-clickable"); // issue #25 and #26
